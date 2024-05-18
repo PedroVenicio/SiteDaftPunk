@@ -1,0 +1,284 @@
+body{
+    margin: 0 auto;
+    background-image: url('Imagens/Background.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position-x: center;
+}
+
+#cabecalho{
+    display: inline-flex;
+    width: 100%;
+    height: 14%;
+    backdrop-filter: blur(100px);
+    position: fixed;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+
+}
+
+#conteudo{
+    margin-left: 18%;
+    text-align: center;
+    display: inline-block;
+    width: 65%;
+    height: 4600px;
+    background: linear-gradient(0deg, black, gray);
+    -moz-box-shadow: 0 2px 20px 0 #ccc;
+    -webkit-box-shadow: 0px 2px 20px 0 #CCC;
+}
+
+#conteudo2{
+    margin-left: 18%;
+    text-align: center;
+    display: inline-block;
+    width: 65%;
+    height: 5500px;
+    background: linear-gradient(0deg, black, gray);
+    -moz-box-shadow: 0 2px 20px 0 #ccc;
+    -webkit-box-shadow: 0px 2px 20px 0 #CCC;
+}
+
+#conteudo3{
+    margin-left: 18%;
+    text-align: center;
+    display: inline-block;
+    width: 65%;
+    height: 2000px;
+    background: linear-gradient(0deg, black, gray);
+    -moz-box-shadow: 0 2px 20px 0 #ccc;
+    -webkit-box-shadow: 0px 2px 20px 0 #CCC;
+}
+
+#logo{
+    text-align: center;
+    width: 225px;
+    height: 150px;
+}
+
+#menu{
+    display: inline-block;
+    text-align: center;
+    font-family: "Impact";
+    font-size: 27;
+    margin-left: 52%;
+    margin-top: 2.5%;
+    color: white;
+    word-spacing: 20px;
+    text-decoration: none;
+}
+
+.options{
+    text-decoration: none;
+    color: white;
+}
+
+.options:hover{
+    text-decoration: none;
+    color: #ee4035;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #aea50d;
+}
+
+#historico{
+    display: inline-block;
+    font-family: "Consolas";
+    margin-top: 15%;
+    font-size: 20;
+    width: 99%;
+    height: 350;
+}
+
+#intro{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+#imagens{
+    text-align: center;
+}
+
+#prologo{
+    font-family: "Impact";
+    font-size: 35;
+    color: #fff;
+}
+
+.branco{
+    color: white;
+}
+
+#inicio{
+    font-family: "Impact";
+    font-size: 35;
+    color: #ee4035;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#ascensao{
+    font-family: "Impact";
+    font-size: 35;
+    color: transparent;
+    animation: effect 0.7s linear infinite;
+}
+@keyframes effect {
+    0% {
+        background: #ff0000;
+        -webkit-background-clip: text;
+    }
+
+    10%{
+        background: #ff7300;
+        -webkit-background-clip: text;
+    }
+
+    20% {
+        background: #fffb00;
+        -webkit-background-clip: text;
+    }
+
+    30% {
+        background: #48ff00;
+        -webkit-background-clip: text;
+    }
+
+    50% {
+        background: #00ffd5;
+        -webkit-background-clip: text;
+    }
+
+    60% {
+        background: #002bff;
+        -webkit-background-clip: text;
+    }
+
+    70% {
+        background: #7a00ff;
+        -webkit-background-clip: text;
+    }
+
+    80% {
+        background: #ff00c8;
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: #ff0000;
+        -webkit-background-clip: text;
+    }
+}
+
+#despedida{
+    font-family: "Impact";
+    font-size: 35;
+    color: #7a00ff;
+    margin-top: 7%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+    
+
+#texto{
+    font-family: "Consolas";
+    font-size: 20;
+    line-height: 175%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.link{
+    color: white;
+}
+
+#homework{
+    margin-top: 10%;
+    font-family: "Impact";
+    font-size: 35;
+    color: #ee4035;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #aea50d;
+}
+
+#discovery{
+    margin-top: 10%;
+    font-family: "Impact";
+    font-size: 35;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#human{
+    margin-top: 10%;
+    font-family: "Impact";
+    font-size: 35;
+    color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #BFEFFF;
+}
+
+#ram{
+    margin-top: 10%;
+    font-family: "Impact";
+    font-size: 35;
+    color: #708090;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFD700;
+}
+
+#musica{
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#descricao{
+    display:inline-block;
+    font-family: "Consolas";
+    font-size: 20;
+    line-height: 175%;
+    margin-top: 2%;
+    width: 75%;
+}
+
+#alive{
+    width: 100%;
+    margin-top: 8%;
+}
+
+#show{
+    text-align: center;
+    width: 100%;
+    height: 2%;
+    display: flex;
+    margin-top: 10%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 3%;
+}
+
+#tituloshow{
+    font-family: "Impact";
+    font-size: 20;
+    margin-left: 2%;
+}
+
+#descricaoshow{
+    font-family: "Consolas";
+    font-size: 17;
+    margin-left: 10%;
+    width: 50%;
+}
+
+#datashow{
+    font-family: "Consolas";
+    font-size: 19;
+    margin-left: 15%;
+}
